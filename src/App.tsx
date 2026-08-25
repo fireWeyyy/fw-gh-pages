@@ -7,7 +7,11 @@ function App() {
   return (
     <>
       <h2>Hello, Welcome to 👉</h2>
+
       <h1>FW's BLOG</h1>
+
+      <small>--- Updated on: 2026-08-25 ---</small>
+
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
