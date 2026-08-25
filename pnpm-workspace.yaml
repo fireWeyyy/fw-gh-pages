@@ -1,0 +1,3 @@
+# 强制 picomatch >=2.3.2：修复通过 gh-pages 传递依赖链引入的安全漏洞
+overrides:
+  picomatch: ">=2.3.2"
