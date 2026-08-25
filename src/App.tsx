@@ -2,11 +2,12 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState<number>(0);
 
   return (
     <>
-      <h1>HELLO, Welcome to FW's Blogggggg</h1>
+      <h2>Hello, Welcome to 👉</h2>
+      <h1>FW's BLOG</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
