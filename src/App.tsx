@@ -10,7 +10,7 @@ function App() {
 
       <h1>FW's BLOG</h1>
 
-      <small>--- Updated on: 2026-08-25 ---</small>
+      <small>--- Updated on: 2026-10-28 ---</small>
 
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
